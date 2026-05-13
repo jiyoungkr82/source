@@ -6,10 +6,23 @@
 
 # 변수 : 프로그램 안에서 값을 담아놓기 위한 공간(이름 사용)
 a = 123
-print(a)
+# print(a)
 
 # \n == enter
 multiline = "Life is too short\nYou need python"
-print(multiline)
+# print(multiline)
+
+# 커스텀 생성한 모듈 호출하여 사용
+# import mod1
+# print(mod1.add(5,3))
+# print(mod1.add(5,3))
+
+# from mod1 import add
+# print(add(0,6))
+
+# * : 모두
+from mod1 import *
+print(add(2,6))
+print(sub(2,6))
 
 
